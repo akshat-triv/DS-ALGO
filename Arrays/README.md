@@ -34,3 +34,17 @@ You are given a sorted array containing both negative and positive values. Resor
 Input  : arr[] = {-8, -5, -3, -1, 3, 6, 9}
 Output : arr[] = {-1, -3, 3, -5, 6, -8, 9}
 ```
+
+## Q.4 K’th Smallest/Largest Element in Unsorted Array
+
+Given an array and a number k where k is smaller than the size of the array, we need to find the k’th smallest element in the given array. It is given that all array elements are distinct.
+
+```bash
+Input: arr[] = {7, 10, 4, 3, 20, 15}
+k = 3
+Output: 7
+
+Input: arr[] = {7, 10, 4, 3, 20, 15}
+k = 4
+Output: 10
+```
