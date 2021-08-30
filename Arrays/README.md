@@ -25,3 +25,12 @@ Output : obj{} = {min: 1, max: 9}
 Input :  arr[] = {34, 25, 111, 421, 619, 502, 166, 15, 420}
 Output : obj[] = {min: 15, max: 619}
 ```
+
+## Q.3 Resort the array in O(n) complexity.
+
+You are given a sorted array containing both negative and positive values. Resort the array taking absolute value of negative numbers. Your complexity should be O(n).
+
+```bash
+Input  : arr[] = {-8, -5, -3, -1, 3, 6, 9}
+Output : arr[] = {-1, -3, 3, -5, 6, -8, 9}
+```
