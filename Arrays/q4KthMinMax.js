@@ -50,6 +50,7 @@ function mergeSort(inputArray, start, end) {
   return inputArray;
 }
 
+// If elements in the array are not distinct
 function removeDuplication(inputArray) {
   const mySet = new Set();
   const updatedArray = [];
@@ -62,6 +63,9 @@ function removeDuplication(inputArray) {
 }
 
 function kthMaxMin(inputArray, type, n) {
+  inputArray = mergeSort(inputArray, 0, inputArray.length - 1);
+  // If elements in an array are not distinct
+  // inputArray = removeDuplication(inputArray);
   let idx;
   if (type === "max") idx = inputArray.length - n;
   else if (type === "min") idx = n - 1;
@@ -69,15 +73,16 @@ function kthMaxMin(inputArray, type, n) {
   return inputArray[idx];
 }
 
-const myArr = [2, 9, 2, 8, 1, 5, 6, 14, 21];
-const kMax = 4; // Tell me 4th maximum
-const kMin = 5; // Tell me 5th minimum
-const sortedArr = mergeSort(myArr, 0, myArr.length - 1);
-// sortedArr =  [1, 2, 2, 5, 6, 8, 9, 14, 21];
-const sortedUniqArr = removeDuplication(sortedArr);
-// sortedUniqArr = [1, 2, 5, 6, 8, 9, 14, 21];
+const myArr = [7, 10, 4, 3, 20, 15];
+const kMax = 1; // Tell me 4th maximum
+const kMin = 3; // Tell me 5th minimum
 
-console.log({ sortedArr, sortedUniqArr });
+// const sortedArr = mergeSort(myArr, 0, myArr.length - 1);
+// // sortedArr =  [1, 2, 2, 5, 6, 8, 9, 14, 21];
+// const sortedUniqArr = removeDuplication(sortedArr);
+// // sortedUniqArr = [1, 2, 5, 6, 8, 9, 14, 21];
 
-console.log(kthMaxMin(sortedUniqArr, "max", kMax));
-console.log(kthMaxMin(sortedUniqArr, "min", kMin));
+// console.log({ sortedArr, sortedUniqArr });
+
+console.log(kthMaxMin(myArr, "max", kMax)); // 20
+console.log(kthMaxMin(myArr, "min", kMin)); // 7
