@@ -48,3 +48,15 @@ Input: arr[] = {7, 10, 4, 3, 20, 15}
 k = 4
 Output: 10
 ```
+
+## Q.5 Sort an array of 0s, 1s and 2s
+
+Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order.
+
+```bash
+Input: arr[] = {0, 2, 1, 2, 0}
+Output: arr[] = {0, 0, 1, 2, 2}
+
+Input: arr[] = {0, 1, 0}
+Output: arr[] = {0, 0, 1}
+```
