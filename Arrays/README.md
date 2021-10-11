@@ -87,4 +87,13 @@ Input : arr1[] = {2, 5, 6}
         arr2[] = {4, 6, 8, 10} 
 Output : Union : {2, 4, 5, 6, 8, 10} 
          Intersection : {6}
-```         
+```
+
+## Q.8 Cyclically rotate an array by one
+
+Given an array, rotate the array by one position in clock-wise direction.
+
+```bash
+Input: N = 5 A[] = {1, 2, 3, 4, 5}
+Output: {5, 1, 2, 3, 4}
+```
