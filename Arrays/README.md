@@ -60,3 +60,15 @@ Output: arr[] = {0, 0, 1, 2, 2}
 Input: arr[] = {0, 1, 0}
 Output: arr[] = {0, 0, 1}
 ```
+
+## Q.6 Negative Postive
+
+An array contains both positive and negative numbers in random order. Rearrange the array elements so that all negative numbers appear before all positive numbers, do this with constant space
+
+```bash
+Input: arr[] = {-12, 11, -13, -5, 6, -7, 5, -3, -6}
+Output: arr[] = { -12, -6, -13, -5, -3, -7, 5, 6, 11 }
+
+Input: arr[] = {-1, 2, -3, 4, 5, 6, -7, 8, 9}
+Output: arr[] = { -1, -7, -3, 5, 6, 4, 8, 9, 2 }
+```
