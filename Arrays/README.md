@@ -72,3 +72,19 @@ Output: arr[] = { -12, -6, -13, -5, -3, -7, 5, 6, 11 }
 Input: arr[] = {-1, 2, -3, 4, 5, 6, -7, 8, 9}
 Output: arr[] = { -1, -7, -3, 5, 6, 4, 8, 9, 2 }
 ```
+
+## Q.7 Union and Intersection
+
+Given two sorted arrays, find their union and intersection.
+
+```bash
+Input : arr1[] = {1, 3, 4, 5, 7}
+        arr2[] = {2, 3, 5, 6} 
+Output : Union : {1, 2, 3, 4, 5, 6, 7} 
+         Intersection : {3, 5}
+
+Input : arr1[] = {2, 5, 6}
+        arr2[] = {4, 6, 8, 10} 
+Output : Union : {2, 4, 5, 6, 8, 10} 
+         Intersection : {6}
+```         
