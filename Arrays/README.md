@@ -94,6 +94,21 @@ Output : Union : {2, 4, 5, 6, 8, 10}
 Given an array, rotate the array by one position in clock-wise direction.
 
 ```bash
-Input: N = 5 A[] = {1, 2, 3, 4, 5}
-Output: {5, 1, 2, 3, 4}
+Input: arr[] = {1, 2, 3, 4, 5}
+Output: arr[] = {5, 1, 2, 3, 4}
+
+Input: arr[] = {7, 8, 9, 1, 2, 3}
+Output: arr[] = {3, 7, 8, 9, 1, 2}
+```
+
+## Q.9 Kadane's Algorithm
+
+Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers that has the largest sum. 
+
+```bash
+Input: arr[] = {-2, -3, 4, -1, -2, 1, 5, -3}
+Output: arr[] = 7 # 4 + -1 + -2 + 1 + 5 = 7
+
+Input: arr[] = {1, 2, 3, -2, 5}
+Output: arr[] = 9 # 1 + 2 + 3 + -2 + 5 = 9
 ```
