@@ -79,13 +79,13 @@ Given two sorted arrays, find their union and intersection.
 
 ```bash
 Input : arr1[] = {1, 3, 4, 5, 7}
-        arr2[] = {2, 3, 5, 6} 
-Output : Union : {1, 2, 3, 4, 5, 6, 7} 
+        arr2[] = {2, 3, 5, 6}
+Output : Union : {1, 2, 3, 4, 5, 6, 7}
          Intersection : {3, 5}
 
 Input : arr1[] = {2, 5, 6}
-        arr2[] = {4, 6, 8, 10} 
-Output : Union : {2, 4, 5, 6, 8, 10} 
+        arr2[] = {4, 6, 8, 10}
+Output : Union : {2, 4, 5, 6, 8, 10}
          Intersection : {6}
 ```
 
@@ -103,7 +103,7 @@ Output: arr[] = {3, 7, 8, 9, 1, 2}
 
 ## Q.9 Kadane's Algorithm
 
-Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers that has the largest sum. 
+Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers that has the largest sum.
 
 ```bash
 Input: arr[] = {-2, -3, 4, -1, -2, 1, 5, -3}
@@ -111,4 +111,18 @@ Output: arr[] = 7 # 4 + -1 + -2 + 1 + 5 = 7
 
 Input: arr[] = {1, 2, 3, -2, 5}
 Output: arr[] = 9 # 1 + 2 + 3 + -2 + 5 = 9
+```
+
+## Q.10 Minimize the heights II
+
+Given an array arr[] denoting heights of N towers and a positive integer K, you have to modify the height of each tower either by increasing or decreasing them by K only once. After modifying, height should be a non-negative integer.
+
+Find out what could be the possible minimum difference of the height of shortest and longest towers after you have modified each tower.
+
+```bash
+Input: arr[] = {1, 5, 8, 10}, N = 4, K = 2
+Output: 5 # The array can be modified as {3, 3, 6, 8}. The difference between the largest and the smallest is 8-3 = 5.
+
+Input: arr[] = {3, 9, 12, 16, 20}, N = 5, K = 3
+Output: 11 # The array can be modified as {6, 12, 9, 13, 17}. The difference between the largest and the smallest is 17-6 = 11.
 ```
